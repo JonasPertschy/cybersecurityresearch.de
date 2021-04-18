@@ -1,0 +1,15 @@
+<footer class="footer">
+  <div class="footer_inner wrap pale">
+    <img src='{{ absURL "icons/apple-touch-icon.png" }}' class="icon icon_2 transparent">
+    <p><span class="year">{{ now.Format "2006"}}</span>&nbsp;{{ .Site.Title | upper }} aggregated by Jonas Pertschy. {{ i18n "all_rights" }}.</p>
+    {{- partial "top" .}}
+  </div>
+</footer>
+<style>
+.LI-badge-container.horizontal.light .LI-field a{color:#808080; !important;}
+.LI-badge-container.horizontal.light .LI-title {color:#808080; !important;}
+.LI-badge-container.horizontal.light .LI-name a{color:#686868; !important;}
+
+</style> 
+
+<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>

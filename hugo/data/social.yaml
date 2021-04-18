@@ -1,0 +1,10 @@
+# Show or hide by uncommenting and vice versa
+#- item: "github"
+#  url: "https://github.com/#"
+#- item: "twitter"
+#  url: "https://twitter.com/JonasPertschy"
+#- item: "linkedin"
+#  url: "https://www.linkedin.com/in/pertschy"
+- item: "rss"
+  url: "index.xml"
+  internal:  true

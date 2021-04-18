@@ -1,0 +1,9 @@
+[en]
+  title = "CyberSecurityResearch"
+  LanguageName = "English"
+  weight = 1
+
+[de]
+  title = "CyberSecurityResearch.DE Nachrichten"
+  LanguageName = "Deutsch"
+  weight = 2

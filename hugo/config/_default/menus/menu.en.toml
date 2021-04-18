@@ -1,0 +1,28 @@
+[[main]]
+  name = "Home"
+  url = ""
+  weight = -110
+
+[[main]]
+  name = "Insights"
+  url = "about/"
+  weight = -109
+
+[[main]]
+  name = "Subscribe"
+  url = "subscribe/"
+  weight = -108
+
+# Submenus are done this way: parent -> identifier
+#[[main]]
+#  name = "Links"
+#  identifier = "Links"
+#  weight = -108
+#[[main]]
+#  parent = "Links"
+#  name = "LaTeX"
+#  url = "https://jonaspertschy.de/"
+#[[main]]
+#  parent = "Links"
+#  name = "Cyberchef"
+#  url = "/cyberchef"
